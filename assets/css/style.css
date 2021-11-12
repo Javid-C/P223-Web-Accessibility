@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav .logo {
+  background-color: #334e9e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav .all-links {
+  display: block;
+  padding: 0;
+}
+
+header nav .all-links a {
+  text-decoration: none;
+}
+
+header nav .all-links .top-links {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .all-links .top-links a {
+  color: black;
+}
+
+header nav .all-links .top-links .info-links ul {
+  margin: 0;
+}
+
+header nav .all-links .top-links .info-links ul li {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+header nav .all-links .top-links .info-links ul li a {
+  color: #6a6a6a;
+}
+
+header nav .all-links .top-links .langs ul {
+  margin: 0;
+}
+
+header nav .all-links .top-links .langs ul li {
+  margin-left: 20px;
+}
+
+header nav .all-links .top-links .langs ul li i {
+  color: #2121ff;
+}
+
+header nav .all-links .bottom-links {
+  background-color: #00acec;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .all-links .bottom-links a {
+  color: white;
+}
+
+header nav .all-links .bottom-links .nav-links ul {
+  margin: 0;
+}
+
+header nav .all-links .bottom-links .nav-links ul li {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+header nav .all-links .bottom-links .nav-links ul li span {
+  font-size: 12px;
+}
+
+header nav .all-links .bottom-links .phone {
+  color: white;
+}
+
+header nav .burger-menu {
+  display: none;
+}
+
+header nav .burger-menu i {
+  font-size: 60px;
+}
+
+body {
+  height: 900vh;
+}
+
+main {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+main .side-bar {
+  height: 90vh;
+  border: 2px solid;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-y: scroll;
+}
+
+main .side-bar ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 992px) {
+  header nav .all-links {
+    display: none;
+  }
+  header nav .burger-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
